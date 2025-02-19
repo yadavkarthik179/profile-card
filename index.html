@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            height: 80vh;
+            width: 30vw;
+            background-color: white;
+            border-radius-top: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-betw;
+            position: relative;
+        }
+
+        .first {
+            background-color: rgb(154, 2, 248);
+            height: 30vh;
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border-top-right-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .second {
+            background-color: rgb(129, 126, 130);
+            height: 50vh;
+            padding: 20px;
+            color: white;
+            padding-top: 100px; 
+            border-bottom-right-radius: 15px;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            position: absolute;
+            top: 102px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+        }
+
+        h1, h2 {
+            margin: 0;
+            text-align: center;
+        }
+
+        h2 ul {
+            padding: 0;
+            list-style-type: none;
+            text-align: left;
+        }
+
+        h2 ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+        </div>
+        <img src="1.jpg" alt="Profile Image">
+        <div class="second">
+            <h1>General: Anil Chauhan</h1>
+            <p>
+                Awards:
+                <ul>
+                    <li>Param Vishisht Seva Medal</li>
+                    <li>Uttam Yudh Seva Medal</li>
+                    <li>Ati Vishisht Seva Medal</li>
+                    <li>Sena Medal</li>
+                    <li>Vishisht Seva Medal</li>
+                    <h1>Description</h1>
+                    <ul>
+                    <li>General Anil Chauhan PVSM UYSM AVSM SM VSM (born 18 May 1961) is a four-star general of the Indian Army, who is the current and 2nd Chief of Defence Staff (CDS) of the Indian Armed Forces, since 30 September 2022</li>
+                </ul></ul>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
